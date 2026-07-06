@@ -1,14 +1,39 @@
-# Cognizant Java FSE - Week 1
+# Cognizant Java Full Stack Engineer (FSE) Deep Skilling Program
 
-This repository contains my solutions for **Week 1** of the **Cognizant Java Full Stack Engineer (FSE) Deep Skilling Program**. The hands-on exercises focus on core Java concepts, software design principles, algorithms, database programming, testing, and logging.
+This repository contains my hands-on solutions and learning exercises completed as part of the **Cognizant Java Full Stack Engineer (FSE) Deep Skilling Program**.
+
+The repository covers the first three weeks of the program, including Core Java, Design Patterns, Data Structures & Algorithms, PL/SQL, Spring Framework, Spring Boot, REST APIs, Spring Data JPA, Hibernate, Spring Security, JWT Authentication, Unit Testing, and Logging.
 
 ---
 
-# Modules Covered
+# Repository Structure
 
-## 1. Design Patterns
+```text
+.
+├── Week-1
+│   ├── 01-Design-Patterns
+│   ├── 02-Data-Structures-and-Algorithms
+│   ├── 03-PL-SQL-Programming
+│   ├── 04-Test-Driven-Development
+│   └── 05-Logging-Framework
+│
+├── Week-2
+│   ├── 01-LibraryManagement
+│   ├── 02-Spring-Core-Maven
+│   ├── 03-Spring-Data-JPA-Hibernate
+│   └── ...
+│
+└── Week-3
+    └── spring-learn
+```
 
-Implemented the following GoF design patterns:
+---
+
+# Week 1
+
+## Design Patterns
+
+Implemented the following GoF Design Patterns:
 
 - Singleton
 - Factory Method
@@ -19,12 +44,12 @@ Implemented the following GoF design patterns:
 - Observer
 - Strategy
 - Command
-- Model-View-Controller (MVC)
-- Dependency Injection (DI)
+- MVC
+- Dependency Injection
 
 ---
 
-## 2. Data Structures & Algorithms
+## Data Structures & Algorithms
 
 Hands-on implementations for:
 
@@ -36,7 +61,7 @@ Hands-on implementations for:
 - Library Management System
 - Financial Forecasting
 
-Concepts covered include:
+Concepts covered:
 
 - Time Complexity Analysis
 - Searching Algorithms
@@ -46,9 +71,9 @@ Concepts covered include:
 
 ---
 
-## 3. PL/SQL Programming
+## PL/SQL Programming
 
-Implemented and practiced:
+Implemented:
 
 - Control Structures
 - Exception Handling
@@ -60,70 +85,182 @@ Implemented and practiced:
 
 ---
 
-## 4. Test Driven Development (TDD)
+## Test Driven Development
 
 ### JUnit
 
-- Basic Unit Testing
-- Assertions
-- Test Lifecycle
-- Advanced JUnit Features
+- Basic JUnit
+- Advanced JUnit
 
 ### Mockito
 
-- Mock Objects
-- Stubbing
-- Verification
+- Basic Mockito
 - Advanced Mockito
 
 ---
 
-## 5. Logging Framework
+## Logging Framework
 
-Implemented logging using **SLF4J**:
+Implemented logging using SLF4J:
 
 - Basic Logging
 - Parameterized Logging
 - Exception Logging
-- Log Levels
 
 ---
 
-# Folder Structure
+# Week 2
 
-```text
-Week-1
-├── 01-Design-Patterns
-├── 02-Data-Structures-and-Algorithms
-├── 03-PL-SQL-Programming
-├── 04-Test-Driven-Development
-└── 05-Logging-Framework
-```
+## Spring Core & Maven
+
+- Maven Project Structure
+- Dependency Management
+- Bean Configuration
+- Spring IoC Container
+- Dependency Injection
+- XML Configuration
+- Annotation-based Configuration
+
+---
+
+## Spring Data JPA & Hibernate
+
+Implemented:
+
+- Entity Mapping
+- Repositories
+- CRUD Operations
+- JPQL Queries
+- Native Queries
+- Relationships
+- Hibernate Configuration
+- Spring Data JPA Integration
+
+---
+
+## Projects
+
+- Library Management System
+- Spring Core Exercises
+- Spring Data JPA & Hibernate Hands-ons
+
+---
+
+# Week 3
+
+## Spring Boot
+
+- Spring Boot Project Setup
+- Configuration Management
+- Logging
+- XML Bean Configuration
+
+---
+
+## RESTful Web Services
+
+Implemented:
+
+- Hello REST API
+- Country REST API
+- Employee REST API
+- Department REST API
+- CRUD Operations
+- Request Validation
+- Global Exception Handling
+- DTOs
+- MockMvc Testing
+
+---
+
+## Spring Security
+
+Implemented:
+
+- Spring Security 6
+- HTTP Basic Authentication
+- Role-Based Authorization
+- Password Encoding
+
+---
+
+## JWT Authentication
+
+Implemented:
+
+- JWT Token Generation
+- Authentication Endpoint
+- JWT Authorization Filter
+- Protected REST APIs
 
 ---
 
 # Technologies Used
 
-- Java
-- Maven
+## Languages
+
+- Java 17
+- SQL
 - PL/SQL
+
+## Frameworks
+
+- Spring Framework
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- Spring Security
+
+## Build Tool
+
+- Maven
+
+## Testing
+
 - JUnit 5
 - Mockito
+- MockMvc
+
+## Logging
+
 - SLF4J
+- Logback
+
+## Authentication
+
+- JWT
 
 ---
 
 # Learning Outcomes
 
-- Applied object-oriented design principles
-- Implemented commonly used design patterns
-- Solved algorithmic problems using Java
-- Developed PL/SQL programs for database operations
-- Practiced Test-Driven Development using JUnit and Mockito
-- Implemented structured application logging
+Through these hands-on exercises, I gained practical experience with:
+
+- Object-Oriented Programming (OOP)
+- Design Patterns
+- Data Structures & Algorithms
+- Maven Project Management
+- Spring Framework
+- Spring Boot
+- Spring Data JPA
+- Hibernate ORM
+- REST API Development
+- Validation & Exception Handling
+- Unit Testing
+- Integration Testing
+- Logging
+- Authentication & Authorization using Spring Security and JWT
 
 ---
 
 # Repository Status
 
-**Week 1:** ✅ Completed
+| Week | Status |
+|------|--------|
+| Week 1 | ✅ Completed |
+| Week 2 | ✅ Completed |
+| Week 3 | ✅ Completed |
+
+---
+
+**Program:** Cognizant Java Full Stack Engineer (FSE) Deep Skilling Program
