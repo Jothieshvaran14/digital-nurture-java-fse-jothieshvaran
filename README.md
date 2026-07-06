@@ -1,4 +1,4 @@
-# Cognizant Java Full Stack Engineer (FSE) Deep Skilling Program
+# DIGITAL NURTURE JAVA FSE Deep Skilling Program
 
 This repository contains my hands-on solutions and learning exercises completed as part of the **Cognizant Java Full Stack Engineer (FSE) Deep Skilling Program**.
 
