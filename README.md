@@ -18,10 +18,8 @@ The repository covers the first three weeks of the program, including Core Java,
 │   └── 05-Logging-Framework
 │
 ├── Week-2
-│   ├── 01-LibraryManagement
-│   ├── 02-Spring-Core-Maven
-│   ├── 03-Spring-Data-JPA-Hibernate
-│   └── ...
+│   ├── 01-Spring-Core-Maven
+│   └── 02-Spring-Data-JPA-Hibernate
 │
 └── Week-3
     └── spring-learn
