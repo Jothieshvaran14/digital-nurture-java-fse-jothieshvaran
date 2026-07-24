@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
+  const onClickHandler = () => {
+    alert("I was clicked");
+  };
+
+  const onMouseOverHandler = () => {
+    alert("Mouse Hovered");
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ textAlign: "center", marginTop: "40px" }}>
+      <h2>Event Examples App</h2>
+
+      <button onClick={onClickHandler}>Click Me</button>
+
+      <br />
+      <br />
+
+      <button onMouseOver={onMouseOverHandler}>
+        Hover Over Me
+      </button>
     </div>
   );
 }

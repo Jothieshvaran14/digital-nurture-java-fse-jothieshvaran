@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
 
 function App() {
+  const [ticket, setTicket] = useState("");
+  const [tickets, setTickets] = useState([]);
+
+  const raiseTicket = () => {
+    if (ticket.trim() !== "") {
+      setTickets([...tickets, ticket]);
+      setTicket("");
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: "20px" }}>
+      <h2>Ticket Raising App</h2>
+
+      <input
+        type="text"
+        placeholder="Enter issue"
+        value={ticket}
+        onChange={(e) => setTicket(e.target.value)}
+      />
+
+      <button onClick={raiseTicket} style={{ marginLeft: "10px" }}>
+        Raise Ticket
+      </button>
+
+      <h3>Raised Tickets</h3>
+      <ul>
+        {tickets.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
     </div>
   );
 }

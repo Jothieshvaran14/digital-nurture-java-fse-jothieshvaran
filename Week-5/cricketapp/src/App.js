@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+function ListofPlayers() {
+  const players = [
+    "Sachin",
+    "Virat",
+    "Dhoni",
+    "Rohit",
+    "Gill",
+    "Hardik",
+    "Jadeja",
+    "Bumrah",
+    "Rahul",
+    "Pant",
+    "Surya",
+  ];
+
+  const oddPlayers = players.filter((_, index) => index % 2 === 0);
+  const evenPlayers = players.filter((_, index) => index % 2 !== 0);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h2>List of Players</h2>
+
+      <h3>Odd Team Players</h3>
+      <ul>
+        {oddPlayers.map((player, index) => (
+          <li key={index}>{player}</li>
+        ))}
+      </ul>
+
+      <h3>Even Team Players</h3>
+      <ul>
+        {evenPlayers.map((player, index) => (
+          <li key={index}>{player}</li>
+        ))}
+      </ul>
     </div>
   );
 }
 
-export default App;
+export default ListofPlayers;
